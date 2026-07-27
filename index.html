@@ -1,389 +1,267 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <!-- Required Meta Tags Always Come First -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Title -->
-    <title>水煮舟 - 开启变现之旅</title>
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="favicon.ico">
-    <!-- Meta tags -->
-    <meta name="keywords" content="水煮舟,水煮舟论坛,水煮舟社区,水煮舟官网,水煮舟赚钱,网络营销,网络营销平台,网络推广,网络推广平台,百科推广,营销工具,论坛营销">
-    <meta name="description" content="水煮舟社区(www.aduit.cn)是值得信赖的广告联盟平台。流量变现, 从未如此简单, 广告组件丰富, 审核机制严格, 收入结算便捷, 数据透明, 结算当天收益, 支持免开发智能接入, 自主开发接入, 满足条件的开发者, 即可接入官方广告组件, 获得持续的流量变现收益。">
-    <!-- Open Graph -->
-    <meta property="og:title" content="水煮舟 - 开启变现之旅">
-    <meta property="og:type" content="article">
-    <meta property="og:url" content="https://www.aduit.cn/">
-    <meta property="og:image" content="https://apps.qtimg.com/assets/brand/bf704eb0ef75fef7.png">
-    <meta property="og:description" content="水煮舟社区(www.aduit.cn)是值得信赖的广告联盟平台。流量变现, 从未如此简单, 广告组件丰富, 审核机制严格, 收入结算便捷, 数据透明, 结算当天收益, 支持免开发智能接入, 自主开发接入, 满足条件的开发者, 即可接入官方广告组件, 获得持续的流量变现收益。">
-    <meta property="og:site_name" content="水煮舟 - 开启变现之旅">
-  <link href="https://apps.bdimg.com/libs/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://apps.bdimg.com/libs/fontawesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
-  <script src="https://apps.alyjs.com/traffic/58f4fe33bf704eb0ef75fef775ea7b95.js"></script>
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-    }
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>兰山区梦颖网络中心</title>
+    <link href="https://apps.bdimg.com/libs/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://apps.bdimg.com/libs/fontawesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+    <style>
+        html { scroll-behavior: smooth; }
+        body {
+            font-family: "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+            color: #32313e;
+            background: #efeefa;
+            -webkit-font-smoothing: antialiased;
+        }
+        a { color: #5c0acb; transition: color 0.3s; }
+        a:hover { color: #3d0787; text-decoration: none; }
 
-    html, body {
-      height: 100%;
-      background: #fff;
-      font-family: "Helvetica Neue", "PingFang SC", "Microsoft YaHei", sans-serif;
-    }
+        .navbar {
+            margin-bottom: 0; border: none; border-radius: 0;
+            background: #ffffff;
+            padding: 10px 0;
+            border-bottom: 1px solid #dedde2;
+        }
+        .navbar-brand {
+            font-size: 22px; font-weight: 700; letter-spacing: 2px;
+            color: #10085d !important;
+        }
+        .navbar-nav > li > a {
+            font-size: 14px; letter-spacing: 1px;
+            color: #5f5d6e !important;
+            padding: 15px 20px; transition: all 0.3s;
+        }
+        .navbar-nav > li > a:hover {
+            color: #190d96 !important;
+            background: #eeeef1;
+            border-radius: 4px;
+        }
 
-    /* 主容器 */
-    .wrapper {
-      min-height: 100%;
-      display: flex;
-      flex-direction: column;
-    }
+        .hero {
+            background: linear-gradient(135deg, #dfddf8 0%, #f0eefb 100%);
+            padding: 120px 0 100px; text-align: center;
+        }
+        .hero h1 {
+            font-size: 42px; font-weight: 300; letter-spacing: 4px;
+            margin-bottom: 20px; color: #0c064b;
+        }
+        .hero p {
+            font-size: 16px; color: #73708e; letter-spacing: 2px;
+            max-width: 500px; margin: 0 auto 40px; line-height: 1.8;
+        }
+        .hero .btn-outline {
+            display: inline-block; padding: 12px 25px;
+            border: 1px solid #160b83;
+            color: #160b83;
+            font-size: 14px; letter-spacing: 2px;
+            background: transparent; border-radius: 30px;
+            transition: all 0.3s;
+        }
+        .hero .btn-outline:hover {
+            background: #160b83;
+            color: #ffffff;
+            text-decoration: none;
+        }
 
-    .content {
-      flex: 1 0 auto;
-    }
+        .section-title { text-align: center; margin-bottom: 60px; }
+        .section-title h2 {
+            font-size: 28px; font-weight: 300; letter-spacing: 3px;
+            margin-bottom: 15px; color: #0e0754;
+        }
+        .section-title .line {
+            display: block; width: 40px; height: 1px;
+            background: #2814ea; margin: 0 auto;
+        }
 
-    /* 顶部导航 */
-    .navbar-default {
-      background: transparent;
-      border: none;
-      margin-bottom: 0;
-      padding: 10px 0;
-    }
+        .about { padding: 80px 0; }
+        .about .feature-item { text-align: center; padding: 40px 20px; }
+        .about .feature-item .fa {
+            font-size: 36px; color: #7975a3; margin-bottom: 20px;
+        }
+        .about .feature-item h4 {
+            font-size: 16px; font-weight: 400; letter-spacing: 2px;
+            margin-bottom: 12px; color: #413e5a;
+        }
+        .about .feature-item p {
+            font-size: 13px; color: #9694a7; line-height: 1.8;
+        }
+        .about .company-intro { margin-bottom: 50px; text-align: justify; }
+        .about .company-intro p {
+            font-size: 15px; color: #504e63; line-height: 2;
+            text-indent: 2em; margin-bottom: 10px;
+        }
 
-    .navbar-brand {
-      font-size: 20px;
-      font-weight: 700;
-      background: linear-gradient(135deg, #e74c3c, #3498db);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
-    }
+        .services { padding: 80px 0; background: #e3e1f8; }
+        .services .service-card {
+            background: #ffffff; padding: 30px 25px; margin-bottom: 30px;
+            text-align: center; transition: all 0.35s;
+            border: 1px solid #dedde2; border-radius: 4px;
+        }
+        .services .service-card:hover {
+            box-shadow: 0 8px 30px rgba(173,3,88,0.08);
+            transform: translateY(-3px);
+        }
+        .services .service-card .fa {
+            font-size: 32px; color: #655f9f; margin-bottom: 18px;
+        }
+        .services .service-card h4 {
+            font-size: 15px; letter-spacing: 2px; margin-bottom: 10px;
+            font-weight: 400; color: #3c3a54;
+        }
+        .services .service-card p {
+            font-size: 13px; color: #908ea3; line-height: 1.8;
+        }
 
-    /* Hero 区域 */
-    .hero {
-      text-align: center;
-      padding: 60px 0 40px;
-    }
+        .contact { padding: 80px 0; text-align: center; }
+        .contact p {
+            font-size: 15px; color: #7a7890;
+            letter-spacing: 1px; line-height: 2;
+        }
 
-    .app-icon {
-      width: 100px;
-      height: 100px;
-      margin: 0 auto 24px;
-      border-radius: 24px;
-      background: linear-gradient(135deg, #e74c3c 0%, #c0392b 30%, #3498db 70%, #2980b9 100%);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      box-shadow: 0 8px 32px rgba(231, 76, 60, 0.2), 0 4px 16px rgba(52, 152, 219, 0.15);
-    }
+        .footer {
+            background: #090438; padding: 40px 0 10px;
+            text-align: center; color: #8c89a8;
+            font-size: 13px; line-height: 2;
+        }
+        .footer a { color: #a9a7bd; transition: color 0.3s; }
+        .footer a:hover { color: #ffffff; }
+        .footer .filing-info { margin-top: 10px; }
+        .footer .filing-info span { margin: 0 10px; color: #515062; }
 
-    .app-icon i {
-      font-size: 48px;
-      color: #fff;
-    }
-
-    .hero h1 {
-      font-size: 36px;
-      font-weight: 300;
-      color: #333;
-      margin-bottom: 12px;
-      letter-spacing: 4px;
-    }
-
-    .hero .tagline {
-      font-size: 16px;
-      color: #999;
-      font-weight: 300;
-      margin-bottom: 40px;
-      letter-spacing: 2px;
-    }
-
-    /* 下载按钮 */
-    .download-section {
-      margin-bottom: 50px;
-    }
-
-    .btn-download {
-      display: inline-block;
-      padding: 14px 48px;
-      font-size: 18px;
-      font-weight: 400;
-      color: #fff;
-      border: none;
-      border-radius: 50px;
-      letter-spacing: 2px;
-      transition: all .3s ease;
-      background: linear-gradient(135deg, #e74c3c, #f39c12, #3498db);
-      background-size: 200% 200%;
-      animation: gradientFlow 4s ease infinite;
-      box-shadow: 0 4px 20px rgba(231, 76, 60, 0.25);
-      text-decoration: none;
-    }
-
-    .btn-download:hover {
-      text-decoration: none;
-      color: #fff;
-      transform: translateY(-2px);
-      box-shadow: 0 8px 30px rgba(231, 76, 60, 0.35);
-    }
-
-    .btn-download:active {
-      transform: translateY(0);
-    }
-
-    @keyframes gradientFlow {
-      0%   { background-position: 0% 50%; }
-      50%  { background-position: 100% 50%; }
-      100% { background-position: 0% 50%; }
-    }
-
-    .download-hint {
-      margin-top: 16px;
-      font-size: 13px;
-      color: #bbb;
-      letter-spacing: 1px;
-    }
-
-    /* 平台按钮 */
-    .platform-btns {
-      margin-bottom: 30px;
-    }
-
-    .btn-platform {
-      display: inline-block;
-      margin: 6px;
-      padding: 10px 32px;
-      font-size: 14px;
-      color: #555;
-      border: 1px solid #e0e0e0;
-      border-radius: 50px;
-      background: #fff;
-      transition: all .25s ease;
-      text-decoration: none;
-      letter-spacing: 1px;
-    }
-
-    .btn-platform:hover {
-      text-decoration: none;
-      color: #e74c3c;
-      border-color: #e74c3c;
-    }
-
-    .btn-platform i {
-      margin-right: 6px;
-    }
-
-    /* 特性区域 */
-    .features {
-      padding: 50px 0;
-    }
-
-    .feature-item {
-      text-align: center;
-      padding: 30px 20px;
-    }
-
-    .feature-icon {
-      width: 64px;
-      height: 64px;
-      line-height: 64px;
-      margin: 0 auto 18px;
-      border-radius: 50%;
-      font-size: 26px;
-      color: #fff;
-      background: linear-gradient(135deg, #e74c3c, #3498db);
-    }
-
-    .feature-item h4 {
-      font-size: 16px;
-      color: #333;
-      font-weight: 500;
-      margin-bottom: 8px;
-      letter-spacing: 2px;
-    }
-
-    .feature-item p {
-      font-size: 13px;
-      color: #aaa;
-      line-height: 1.8;
-      letter-spacing: 1px;
-    }
-
-    /* 分割线 */
-    .divider {
-      width: 40px;
-      height: 2px;
-      margin: 0 auto 40px;
-      background: linear-gradient(90deg, #e74c3c, #3498db);
-      border-radius: 1px;
-    }
-
-    /* 底部 */
-    .footer {
-      flex-shrink: 0;
-      text-align: center;
-      padding: 30px 0;
-    }
-
-    .footer .icp {
-      font-size: 12px;
-      color: #ccc;
-      letter-spacing: 1px;
-    }
-
-    .footer .icp a {
-      color: #ccc;
-      text-decoration: none;
-      transition: color .2s;
-    }
-
-    .footer .icp a:hover {
-      color: #3498db;
-    }
-
-    /* 响应式 */
-    @media (max-width: 767px) {
-      .hero {
-        padding: 40px 0 24px;
-      }
-
-      .hero h1 {
-        font-size: 28px;
-        letter-spacing: 3px;
-      }
-
-      .hero .tagline {
-        font-size: 14px;
-        margin-bottom: 30px;
-      }
-
-      .app-icon {
-        width: 80px;
-        height: 80px;
-        border-radius: 20px;
-      }
-
-      .app-icon i {
-        font-size: 36px;
-      }
-
-      .btn-download {
-        padding: 12px 36px;
-        font-size: 16px;
-      }
-
-      .feature-item {
-        padding: 20px 15px;
-      }
-    }
-
-    @media (max-width: 480px) {
-      .hero h1 {
-        font-size: 24px;
-      }
-
-      .btn-platform {
-        padding: 8px 20px;
-        font-size: 13px;
-      }
-    }
-  </style>
+        .btn-primary {
+            background: #190d96; border-color: #190d96;
+        }
+        .btn-primary:hover {
+            background: #2010bb; border-color: #2010bb;
+        }
+        #loginModal .modal-content { border-radius: 8px; }
+        #loginModal .modal-header { border-bottom: 1px solid #dedde2; }
+        #loginModal .modal-footer { border-top: 1px solid #dedde2; }
+    </style>
 </head>
 <body>
 
-  <div class="wrapper">
-
-    <!-- 主内容 -->
-    <div class="content">
-
-      <!-- 导航 -->
-      <nav class="navbar navbar-default">
+    <nav class="navbar navbar-default" role="navigation">
         <div class="container">
-          <div class="navbar-header">
-            <a class="navbar-brand" href="#">水煮舟</a>
-          </div>
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="sr-only">菜单</span>
+                    <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">梦颖网络</a>
+            </div>
+            <div class="collapse navbar-collapse navbar-right" id="navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="#home">首页</a></li>
+                    <li><a href="#about">关于</a></li>
+                    <li><a href="#services">服务</a></li>
+                    <li><a href="#cases">案例</a></li>
+                    <li><a href="javascript:void(0)" onclick="$('#loginModal').modal('show')">登录</a></li>
+                </ul>
+            </div>
         </div>
-      </nav>
+    </nav>
 
-      <!-- Hero -->
-      <section class="hero">
+    <section id="home" class="hero">
         <div class="container">
-          <div class="app-icon">
-            <i class="fa fa-ship"></i>
-          </div>
-          <h1>水 煮 舟</h1>
-          <p class="tagline">流量变现, 从未如此简单</p>
-          <div class="divider"></div>
-
-          <div class="download-section">
-            <a href="#" class="btn-download">
-              <i class="fa fa-download" style="margin-right:8px;"></i>立 即 下 载
-            </a>
-            <p class="download-hint">支持 iOS / Android 平台</p>
-          </div>
-
-          <div class="platform-btns">
-            <a href="#" class="btn-platform">
-              <i class="fa fa-apple"></i>App Store
-            </a>
-            <a href="#" class="btn-platform">
-              <i class="fa fa-android"></i>Android APK
-            </a>
-          </div>
+            <h1>极简 · 专业 · 信赖</h1>
+            <p>您正在访问域名 Aduit.cn 为梦颖网络业务域名。<br/>用于承载梦颖网络旗下运营的<b>企业微信群</b>的二维码交互内容。</p>
+            <a href="//mb.aduit.cn" class="btn-outline">开 始 探 索</a>
         </div>
-      </section>
+    </section>
 
-      <!-- 特性 -->
-      <section class="features">
+    <section id="about" class="about">
         <div class="container">
-          <div class="row">
-            <div class="col-sm-4 col-xs-12">
-              <div class="feature-item">
-                <div class="feature-icon">
-                  <i class="fa fa-bolt"></i>
-                </div>
-                <h4>极速体验</h4>
-                <p>流畅的交互设计<br>给你最纯粹的使用感受</p>
-              </div>
+            <div class="section-title">
+                <h2>关于我们</h2>
+                <span class="line"></span>
             </div>
-            <div class="col-sm-4 col-xs-12">
-              <div class="feature-item">
-                <div class="feature-icon">
-                  <i class="fa fa-shield"></i>
-                </div>
-                <h4>安全可靠</h4>
-                <p>数据加密传输<br>全方位保护你的隐私安全</p>
-              </div>
+            <div class="company-intro">
+                <p>兰山区梦颖网络中心成立于2023年08月31日，注册地位于山东省临沂市兰山区兰山街道蒙山大道顺和母幼采购基地2-32号。</p>
+                <p>经营范围：网络技术服务；软件开发；广告制作；广告发布；广告设计、代理；平面设计；软件外包服务；信息技术咨询服务；网络与信息安全软件开发；技术服务、技术开发、技术咨询、技术交流、技术转让、技术推广。</p>
             </div>
-            <div class="col-sm-4 col-xs-12">
-              <div class="feature-item">
-                <div class="feature-icon">
-                  <i class="fa fa-heart-o"></i>
-                </div>
-                <h4>用心之作</h4>
-                <p>精心打磨每个细节<br>只为给你最好的体验</p>
-              </div>
+            <div class="row">
+                <div class="col-md-4"><div class="feature-item"><i class="fa fa-diamond"></i><h4>网址缩短</h4><p>缩短后发布到对应的企业微信群内，方便分享浏览。</p></div></div>
+                <div class="col-md-4"><div class="feature-item"><i class="fa fa-lightbulb-o"></i><h4>图片分享</h4><p>保持对前沿技术的敏锐感知，驱动业务不断进化。</p></div></div>
+                <div class="col-md-4"><div class="feature-item"><i class="fa fa-heart-o"></i><h4>会员管理</h4><p>用心聆听客户的需求，提供量身定制的服务方案。</p></div></div>
             </div>
-          </div>
         </div>
-      </section>
+    </section>
 
-    </div>
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-title">
+                <h2>服务项目</h2>
+                <span class="line"></span>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-sm-6"><div class="service-card"><i class="fa fa-desktop"></i><h4>网站建设</h4><p>响应式企业官网设计与开发</p></div></div>
+                <div class="col-md-3 col-sm-6"><div class="service-card"><i class="fa fa-mobile"></i><h4>移动应用</h4><p>iOS / Android 原生应用开发</p></div></div>
+                <div class="col-md-3 col-sm-6"><div class="service-card"><i class="fa fa-cloud"></i><h4>云计算服务</h4><p>企业级云架构搭建与运维</p></div></div>
+                <div class="col-md-3 col-sm-6"><div class="service-card"><i class="fa fa-line-chart"></i><h4>品牌策划</h4><p>品牌定位与数字化营销策略</p></div></div>
+            </div>
+        </div>
+    </section>
 
-    <!-- 底部 -->
+    <section id="cases" class="services" style="background:#efeefa;">
+        <div class="container">
+            <div class="section-title">
+                <h2>案例展示</h2>
+                <span class="line"></span>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6"><div class="service-card"><i class="fa fa-shopping-cart"></i><h4>微信小程序</h4><p>电商平台搭建项目</p></div></div>
+                <div class="col-md-4 col-sm-6"><div class="service-card"><i class="fa fa-building-o"></i><h4>微信公众号</h4><p>某某行业解决方案</p></div></div>
+                <div class="col-md-4 col-sm-6"><div class="service-card"><i class="fa fa-bank"></i><h4>企业微信群</h4><p>金融数字化转型案例</p></div></div>
+            </div>
+        </div>
+    </section>
+
     <footer class="footer">
-      <div class="container">
-        <p class="icp">
-          <a href="https://beian.miit.gov.cn/" target="_blank" rel="nofollow">鲁ICP备2025189343号-3</a>
-        </p>
-      </div>
+        <div class="container">
+            <p>Copyright &copy; 2026 <a href="//www.aduit.cn">兰山区梦颖网络中心</a> 版权所有.</p>
+            <p class="filing-info">
+                <a href="https://beian.miit.gov.cn/" target="_blank" rel="nofollow">鲁ICP备2025189343号</a>
+                <span>|</span>
+                <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=37131202371948" target="_blank" rel="nofollow">鲁公网安备37131202371948号</a>
+            </p>
+        </div>
     </footer>
 
-  </div>
+    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel">
+        <div class="modal-dialog modal-sm" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="关闭"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="loginModalLabel">用户登录</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group"><div class="input-group"><span class="input-group-addon"><i class="fa fa-user"></i></span><input type="text" id="loginUsername" class="form-control" placeholder="请输入用户名"></div></div>
+                    <div class="form-group"><div class="input-group"><span class="input-group-addon"><i class="fa fa-lock"></i></span><input type="password" id="loginPassword" class="form-control" placeholder="请输入密码"></div></div>
+                    <div class="checkbox" style="margin-top:0;margin-bottom:10px;"><label><input type="checkbox" id="rememberMe"> 记住密码</label></div>
+                    <button type="button" id="loginBtn" class="btn btn-primary btn-block">登 录</button>
+                    <div id="loginMsg" style="text-align:center;margin-top:10px;font-size:13px;"></div>
+                </div>
+                <div class="modal-footer" style="text-align:center;">
+                    <span style="font-size:13px;color:#8b899e;">还没有账号？<a href="javascript:void(0)" style="color:#5d10c6;">立即注册</a></span>
+                </div>
+            </div>
+        </div>
+    </div>
 
-  <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
-  <script src="https://apps.bdimg.com/libs/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://apps.bdimg.com/libs/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script>
+        $('#loginBtn').on('click', function() {
+            var username = $('#loginUsername').val().trim();
+            var password = $('#loginPassword').val().trim();
+            if (!username) { $('#loginMsg').html('<span style="color:#d9534f;">请输入用户名</span>'); return; }
+            if (!password) { $('#loginMsg').html('<span style="color:#d9534f;">请输入密码</span>'); return; }
+            $('#loginMsg').html('<span style="color:#5c0acb;">登录中...</span>');
+            setTimeout(function() { $('#loginMsg').html('<span style="color:#5cb85c;">登录成功！欢迎回来</span>'); }, 1000);
+        });
+    </script>
 </body>
 </html>
